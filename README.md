@@ -1,6 +1,9 @@
 #MoviesGPT
 -Create react app
 -Configured tailwindcss in our app.
+-Header.
+-Login form.
+- Sign up form.
 
 #planning
 #features
