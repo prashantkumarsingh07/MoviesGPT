@@ -2,8 +2,11 @@
 -Create react app
 -Configured tailwindcss in our app.
 -Header.
+- Routing.
 -Login form.
 - Sign up form.
+- Form Validation.
+- useRef Hook.
 
 #planning
 #features
