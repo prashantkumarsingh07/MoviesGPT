@@ -1,4 +1,4 @@
- export const checkValidData =(email,password)=>{
+export const checkValidData =(email,password)=>{
 
 
   
