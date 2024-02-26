@@ -12,6 +12,10 @@
 - Create SignUp User Account.
 -Implement Sign In user Api.
 - Created redux store with userSlice.
+- Implemented Signout.
+- Update profile.
+- BugFix : Signup user displayName .
+- Bugfix: if the user is not logged in Redirect / browse to Login Page vice-versa.
 
 
 
