@@ -29,6 +29,13 @@
 - Embeded the Youtube video and make it autoplay and mute.
 - Tailwind Classes to make Main Container lok awesome.
 - Build Secondary Component.
+- Build Secondary Component.
+- Build Movie list.
+- TMDB Image CDN URL.
+- Made the Browse page amazing.
+- usePopularMovies Custom Hook.
+- useTopRatedMovies Custom Hook.
+- useUpcomingMovies Custom Hook.
 
 
 #planning
