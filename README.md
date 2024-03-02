@@ -28,6 +28,7 @@
 - Updated Store wih Trailer Video Data.
 - Embeded the Youtube video and make it autoplay and mute.
 - Tailwind Classes to make Main Container lok awesome.
+- Build Secondary Component.
 
 
 #planning
