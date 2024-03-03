@@ -8,6 +8,7 @@
 import { useEffect } from "react";
 import {addUser, removeUser} from "../utils/userSlice";
 import { LOGO } from "../utils/constants";
+import { toggleGptSearchView } from "../utils/gptSlice";
 
  const Header = () => {
 
@@ -50,7 +51,10 @@ import { LOGO } from "../utils/constants";
     return () => unsubscribe();
   }, []);
 
-
+  const handleGptSearch=()=>{
+    // Toggle GPT Search
+    dispatch(toggleGptSearchView());
+  }
    return (
      <div className="absolute w-screen px-8 py-2 bg-gradient-to-b from-black z-10 flex justify-between">
        <img
@@ -60,6 +64,7 @@ import { LOGO } from "../utils/constants";
        />
        {user && (
          <div className="flex p-2">
+         <button className="py-2 mx-4 my-2 px-4 bg-purple-800 text-white rounded-lg" onClick={handleGptSearch}>GPT Search</button>
            { <img className="w-12 h-12" alt="user" src={user?.photoURL} /> }
            <button onClick={handleSignOut} className="font-bold text-white ">
            (Sign Out)
