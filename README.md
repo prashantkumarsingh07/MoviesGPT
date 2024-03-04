@@ -37,6 +37,8 @@
 - useTopRatedMovies Custom Hook.
 - useUpcomingMovies Custom Hook.
 - GPT Search feature.
+- GPT Search Bar.
+- * (Multi-laguage -Feature in our app)(IMP FEATURE).
 
 
 #planning
