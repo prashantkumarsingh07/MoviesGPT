@@ -7,7 +7,7 @@
  import { auth } from "../utils/firebase";
 import { useEffect } from "react";
 import {addUser, removeUser} from "../utils/userSlice";
-import { LOGO } from "../utils/constants";
+import { LOGO, SUPPORTED_LANGUAGES } from "../utils/constants";
 import { toggleGptSearchView } from "../utils/gptSlice";
 
  const Header = () => {
@@ -64,6 +64,15 @@ import { toggleGptSearchView } from "../utils/gptSlice";
        />
        {user && (
          <div className="flex p-2">
+         <select className="p-2 m-2 bg-gray-900 text-white rounded-lg">
+          {SUPPORTED_LANGUAGES.map((lang)=>(
+            <option key={lang.identifier} value={lang.identifier}>
+              {lang.name}
+            </option>
+          ))
+
+          }
+         </select>
          <button className="py-2 mx-4 my-2 px-4 bg-purple-800 text-white rounded-lg" onClick={handleGptSearch}>GPT Search</button>
            { <img className="w-12 h-12" alt="user" src={user?.photoURL} /> }
            <button onClick={handleSignOut} className="font-bold text-white ">
