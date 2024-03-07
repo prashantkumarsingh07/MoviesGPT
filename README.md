@@ -45,6 +45,10 @@
 - created gptSlice added data.
 - Resused Movie List component to make movie suggestion container.
 - Memoization to stop unnecessary api calls.
+- Added .env file.
+- Added .env file to gitignore.
+- Made our Site Responsive.
+
 
 
 #planning
