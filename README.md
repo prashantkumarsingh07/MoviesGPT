@@ -39,6 +39,11 @@
 - GPT Search feature.
 - GPT Search Bar.
 - * (Multi-laguage -Feature in our app)(IMP FEATURE).
+- Get Open AI Api Key.
+- Gpt Search API Call.
+- fetched gptMoviesSuggestions from TMDB.
+- created gptSlice added data.
+- Resused Movie List component to make movie suggestion container.
 
 
 #planning
