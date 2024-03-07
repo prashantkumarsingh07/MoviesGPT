@@ -44,6 +44,7 @@
 - fetched gptMoviesSuggestions from TMDB.
 - created gptSlice added data.
 - Resused Movie List component to make movie suggestion container.
+- Memoization to stop unnecessary api calls.
 
 
 #planning
