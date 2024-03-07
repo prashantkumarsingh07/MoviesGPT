@@ -6,7 +6,7 @@ import { BACK_IMG } from '../utils/constants';
 const GptSearch = () => {
   return (
     <div>
-     <div className="absolute -z-10">
+     <div className=" fixed -z-10">
          <img
            src={BACK_IMG}
            alt="logo"
